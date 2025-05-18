@@ -1,0 +1,47 @@
+/* Timer 全体のコンテナ */
+.timerContainer {
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* カウントダウン表示 */
+  .countdown {
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* ボタン群のレイアウト */
+  .controls {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  /* 共通ボタンスタイル */
+  .button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Start ボタン */
+  .start {
+    background-color: #3b82f6; /* blue-500 */
+  }
+  
+  /* Stop ボタン */
+  .stop {
+    background-color: #f59e0b; /* yellow-500 */
+  }
+  
+  /* Reset ボタン */
+  .reset {
+    background-color: #6b7280; /* gray-500 */
+  }
+  
