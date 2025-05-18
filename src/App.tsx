@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const WORK_SEC  = 25 * 60;
 const BREAK_SEC = 5  * 60;
