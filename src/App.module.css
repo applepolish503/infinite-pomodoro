@@ -1,0 +1,9 @@
+/* App.module.css */
+.wrapper {
+    display: flex;
+    align-items: center;    /* 垂直方向中央寄せ */
+    justify-content: center;/* 水平方向中央寄せ */
+    width: 100vw;
+    height: 100vh;
+  }
+  

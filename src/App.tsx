@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './App.module.css';
 import { PomodoroTimer } from './components/PomodoroTimer';
 
 /**
@@ -7,7 +8,7 @@ import { PomodoroTimer } from './components/PomodoroTimer';
  */
 const App: React.FC = () => {
   return (
-    <div className="h-screen w-screen overflow-hidden">
+    <div className={styles.wrapper}>
       <PomodoroTimer />
     </div>
   );
